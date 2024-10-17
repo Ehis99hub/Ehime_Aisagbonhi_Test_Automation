@@ -17,19 +17,21 @@ public class First_Testcase {
         
     
         
-      //  if(act_title.equals("Your Store"))
+       // if(act_title.equals("Your Store"))
         {	
-       //     System.out.println("Test passed");
+           System.out.println("Test passed");
         }
-      //  else
+        else
         {
-     //      System.out.println("Test Failed");
+           System.out.println("Test Failed");
         }
-       // driver.findElement(By.name("search")).sendKeys("mac");
-       // driver.findElement(By.className("btn")).click();
+        driver.findElement(By.name("search")).sendKeys("mac");
+        driver.findElement(By.className("btn")).click();
         
         boolean newlogo=driver.findElement(By.id("logo")).isDisplayed();
         System.out.println(newlogo);
+        
+        
        
        // driver.close();
 	
