@@ -17,11 +17,11 @@ public class First_Testcase {
         
     
         
-       // if(act_title.equals("Your Store"))
+        if(act_title.equals("Your Store"))
         {	
            System.out.println("Test passed");
         }
-        else
+         else
         {
            System.out.println("Test Failed");
         }
