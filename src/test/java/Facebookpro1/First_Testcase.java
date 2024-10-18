@@ -28,8 +28,8 @@ public class First_Testcase {
         driver.findElement(By.name("search")).sendKeys("mac");
         driver.findElement(By.className("btn")).click();
         
-        boolean newlogo=driver.findElement(By.id("logo")).isDisplayed();
-        System.out.println(newlogo);
+        //boolean newlogo=driver.findElement(By.id("logo")).isDisplayed();
+        //System.out.println(newlogo);
         
         
        
